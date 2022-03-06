@@ -1,0 +1,22 @@
+* {
+    color: #c9d1d9;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#0d1117;
+}
+
+.borde {
+  border-radius: 150px;
+}
+
+img {
+  width: 200px;
+}
+
+.cabecera {
+  background-color: #161b22;
+  color: rgb(255, 255, 255);
+}
+
+.frase {
+  background-color: transparent;
+}

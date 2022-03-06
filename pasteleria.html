@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cabecera">
+    <img class="borde" src="imagenes/michi.png" alt="Logo de Pastelería NOX.">
+    <p class="frase">Porque sabemos lo que más te gusta :D</p>
+    <br>  <!-- Salto de línea -->
+    <hr>  <!-- Línea horizontal -->
+  </div>
+  <p>Dirección: Estado de México, México.</p>
+  <p>Teléfono: 55 1234 5678.</p>
+  <p>Horario: Lunes a Domingo de 7am a 10pm.</p>
+
+  <hr>
+  <br>
+  <h2>Pasteles</h2>
+  <p>Individuales</p>
+  <img src="imagenes/adornos.jpg" alt="Adornos para pastel">
+
+  <br>
+  <br>
+  <!-- TABLAS -->
+  <table>
+    <tr>
+      <th>| Relleno |</th>
+      <th>Precio |</th>
+    </tr>
+    <tr>
+      <td>| cajeta</td>
+      <td>| $50 |</td>
+    </tr>
+    <tr>
+      <td>| chocolate</td>
+      <td>| $40 |</td>
+    </tr>
+    <tr>
+      <td>| rompope</td>
+      <td>| $30 |</td>
+    </tr>
+  </table>
+  <h6>Combinados en $120.</h6>
+  <br>
+  <h3>Adornos</h3>
+  <p>Cada uno en $20.</p>
+
+  <hr>
+  <br>
+    <!-- Formularios -->
+    <h2>Hacer pedido</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="luisDur">
+        <br><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="5512345678" maxlength="10">
+        <br><br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="luisdur@dominio.com">        
+        <br><br>
+        <h2>Sabores de pastel</h2>
+        <label for="pastelCa">Cajeta</label>
+        <input type="checkbox" id="pastelCa" name="pastelCa">
+        <br>
+        <label for="pastelCh">Chocolate</label>
+        <input type="checkbox" id="pastelCh" name="pastelCh">
+        <br>
+        <label for="pastelRo">Rompope</label>
+        <input type="checkbox" id="pastelRo" name="pastelRo">
+        <br><br>
+        <h2>Adornos</h2>
+        <label for="adornoDo">Dorado</label>
+        <input type="checkbox" id="adornoDo" name="adornoDo">
+        <br>
+        <label for="adornoGr">Gris</label>
+        <input type="checkbox" id="adornoGr" name="adornoGr">
+        <br>
+        <label for="adornoNe">Negro</label>
+        <input type="checkbox" id="adornoNe" name="adornoNe">
+        <br><br>
+    </form>
+
+    <a href="./pedido.html">
+      <input type="button" value="Hacer pedido">
+    </a>
+    <br><br>
+
+    <footer>
+      <p><small>© 2022 NOX.</small></p>
+    </footer>
+</body>
+</html>
